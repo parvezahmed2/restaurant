@@ -1,0 +1,14 @@
+.main_container{
+    width: 90%;
+    margin: auto;
+}
+.img{
+    width: 100%;
+}
+.btn{
+    border: none;
+    background-color: orange;
+}
+.text-color{
+    color: orange;
+}

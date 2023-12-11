@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{%  load static %}
+{%block content %}
+<link rel="stylesheet" href="{% static 'home.css' %}"> 
+
+<section class="main_container" >
+    <div class="container row">
+        <div class=" col-6">
+            <h1>List your restaurant or shop on <span class="text-color">Our food</span> village</h1>
+            <p>Would you like millions of new customers to enjoy your amazing food and groceries? So would we! </p>
+            <p>   It's simple: we list your menu and product lists online, help you process orders, pick them up, and deliver them to hungry pandas – in a heartbeat!</p>
+
+            <button class="btn">Ourder Now</button>
+        </div>
+        <div class="  col-6">
+            <img  class="img"  src="{% static 'food2.jpg' %}" alt="">
+        </div>
+    </div>
+</section>
+ 
+
+
+{% endblock %}
